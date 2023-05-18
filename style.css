@@ -46,6 +46,7 @@ body{
   color: var(--Transparent-white);
   padding-bottom: 3rem;
 }
+/* card layout starts here!!! */
 .card{
   padding: 3rem;
   line-height: 1.5;
@@ -63,6 +64,7 @@ body{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+/* button starts here!!!*/
 .button{
   margin: 1rem 0rem 0rem;
   padding: 0.8rem 1.8rem;
@@ -79,6 +81,7 @@ body{
 .button-card3{
   color: var(--Very-dark-cyan);
 }
+/* responsive design starts here!!! */
 @media screen and (min-width:1336px){
   .box{
     width: 58rem;
