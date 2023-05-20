@@ -71,18 +71,31 @@ body{
   background-color: var(--Very-light-gray);
   border: 1px solid var(--Very-light-gray);
   border-radius: 30px;
+  cursor: pointer;
 }
 .button-card1{
   color: var(--Bright-orange);
 }
+.button-card1:hover{
+  color: var(--Very-light-gray);
+  background-color: var(--Bright-orange);
+}
 .button-card2{
   color: var(--Dark-cyan);
+}
+.button-card2:hover{
+  color: var(--Very-light-gray);
+  background-color: var(--Dark-cyan);
 }
 .button-card3{
   color: var(--Very-dark-cyan);
 }
+.button-card3:hover{
+  color: var(--Very-light-gray);
+  background-color: var(--Very-dark-cyan);
+}
 /* responsive design starts here!!! */
-@media screen and (min-width:1336px){
+@media screen and (min-width:1440px){
   .box{
     width: 58rem;
     display: flex;
